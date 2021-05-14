@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(134, 167, 228);
+}
+
+
+.geral{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
